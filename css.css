@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: #d400ff;
+}
+
+
+p {
+  font-size: 25px;
+  
+}
+
+
+a {
+    color: #d400ff;
+    font-size: small;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #4400ff;
+    border-style: solid;
+    position: relative;
+    width: 24%;
+    text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6, 0 0 40px #018fee, 0 0 50px #0191f1, 0 0 60px #0099ff, 0 0 70px #0099ff;
+
+}
+
+
+@keyframes flicker {
+    from {
+      text-shadow:
+      0 0 5px blue,0 0 10px blue,
+      0 0 20px blue, 0 0 40px blue;
+    }
+    to {
+      text-shadow:
+      0 0 5px blue, 0 0 10px blue,
+      0 0 20px rgb(0, 183, 255), 0 0 40px rgb(0, 162, 255);
+    }
+  }
+  
+  .flick { animation: flicker 1s ease-in-out infinite alternate; }
