@@ -6,6 +6,8 @@ body {
 
 p {
   font-size: 25px;
+  text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6, 0 0 40px #018fee, 0 0 50px #0191f1, 0 0 60px #0099ff, 0 0 70px #0099ff;
+
   
 }
 
@@ -40,3 +42,36 @@ a {
   }
   
   .flick { animation: flicker 1s ease-in-out infinite alternate; }
+
+
+
+  .alert {
+    padding: 20px;
+      background-color: #000000;
+      color: rgb(9, 255, 0);
+      margin-bottom: 15px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      border: #1eff00;
+      border-style: solid;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: rgb(255, 255, 255);
+  }
