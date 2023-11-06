@@ -11,6 +11,11 @@ p {
   
 }
 
+p:hover {
+  text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01, 0 0 50px #09f101, 0 0 60px #26ff00, 0 0 70px #00ff04;
+
+}
+
 
 a {
     color: #d400ff;
@@ -24,6 +29,14 @@ a {
     position: relative;
     width: 24%;
     text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6, 0 0 40px #018fee, 0 0 50px #0191f1, 0 0 60px #0099ff, 0 0 70px #0099ff;
+
+}
+
+a:hover {
+  color:#1eff00;
+  border: #1eff00;
+  border-style: solid;
+  text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01, 0 0 50px #09f101, 0 0 60px #26ff00, 0 0 70px #00ff04;
 
 }
 
