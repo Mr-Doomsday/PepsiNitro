@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version2'; // bump this version when you make changes.
+var CACHE_NAME = 'version4'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
@@ -112,82 +112,6 @@ var urlsToCache = [
     'games/stick-duel-battle',
     'games/stickman-hook',
     'games/baldis-basics',
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> 3b59dd2 (Update V3 WebApp)
 
 ];
 
