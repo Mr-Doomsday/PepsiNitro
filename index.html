@@ -24,7 +24,7 @@
         <meta name="theme-color" content="#000000" />
     <title>PepsiNitro | Games</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <link rel="manifest" href="/assets/webapp/manifest.json">
+    <link rel="manifest" href="manifest.json">
         <style>
             :root{
                 --theme:#000000;
@@ -512,7 +512,7 @@
 
 <div class="alert">
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-    <strong>Update.</strong> I have added a ChatRoom, so you can chat with others, request ideas, or ask for bug fixs. I got rid of GBA Emulator 2 (Due to repeat of games), so I'll be adding more games soon. Have fun
+    <strong>Update.</strong> You can now download the website as a WebApp, just look at the top right of the search bar. I have added 4 more games. Have fun
   </div>
 
 
@@ -545,7 +545,7 @@
         // ServiceWorker Registration
         if('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('assets/webapp/sw.js').then(function(registration) {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                     
