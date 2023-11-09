@@ -112,6 +112,7 @@ var urlsToCache = [
     'games/stick-duel-battle',
     'games/stickman-hook',
     'games/baldis-basics',
+<<<<<<< HEAD
 
 
 
@@ -185,6 +186,8 @@ var urlsToCache = [
 
 
 
+=======
+>>>>>>> 3b59dd2 (Update V3 WebApp)
 
 ];
 
