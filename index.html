@@ -24,7 +24,7 @@
         <meta name="theme-color" content="#000000" />
     <title>PepsiNitro | Games</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/assets/webapp/manifest.json">
         <style>
             :root{
                 --theme:#000000;
@@ -545,7 +545,7 @@
         // ServiceWorker Registration
         if('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('sw.js').then(function(registration) {
+                navigator.serviceWorker.register('assets/webapp/sw.js').then(function(registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                     
