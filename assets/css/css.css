@@ -16,6 +16,18 @@ p:hover.link {
 
 }
 
+.img {
+  border-style: hidden;
+  background-color: #000436;
+  width: 15%;
+
+}
+
+.img:hover {
+  border-style: hidden;
+  background-color: #000436;
+
+}
 
 a {
     color: #d400ff;
@@ -39,6 +51,7 @@ a:hover {
   text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01, 0 0 50px #09f101, 0 0 60px #26ff00, 0 0 70px #00ff04;
 
 }
+
 
 
 @keyframes flicker {
@@ -89,4 +102,49 @@ a:hover {
     color: rgb(255, 255, 255);
   }
 
-  
+  /* Callout box - fixed position at the bottom of the page */
+.callout {
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+/* Callout header */
+.callout-header {
+  padding: 5px 10px;
+  background: #000436;
+  font-size: 30px;
+  color: white;
+  border-style: solid;
+  border-color: #4400ff;
+}
+
+/* Callout container/body */
+.callout-container {
+  padding: 10px;
+  background-color: #000000;
+  color: lime;
+  border-style: solid;
+  border-color: #000436;
+}
+
+/* Close button */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: lime;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+  color: white;
+}
+
+.webApp {
+  font-size: large;
+}
