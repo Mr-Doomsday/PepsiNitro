@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version7'; // bump this version when you make changes.
+var CACHE_NAME = 'version8'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
@@ -6,6 +6,7 @@ var urlsToCache = [
     'assets/img/logo-192.png',
     'assets/img/logo-512.png',
     'assets/img/logo.png',
+    'assets/img/oldLogo.png',
     'assets/img/favicon.ico',
     'assets/css/css.css',
     'assets/css/spin.css',

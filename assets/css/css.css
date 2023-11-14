@@ -16,11 +16,17 @@ p:hover.link {
 
 }
 
+.front {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
 .img {
   border-style: hidden;
   background-color: #000436;
   width: 15%;
-
+  left: -5px;
+  bottom: -5px;
 }
 
 .img:hover {
@@ -28,6 +34,7 @@ p:hover.link {
   background-color: #000436;
 
 }
+
 
 a {
     color: #d400ff;
