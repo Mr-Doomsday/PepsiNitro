@@ -3,6 +3,10 @@ body {
     color: #d400ff;
 }
 
+h1 {
+  color: #d400ff;
+  text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6, 0 0 40px #018fee, 0 0 50px #0191f1, 0 0 60px #0099ff, 0 0 70px #0099ff;
+}
 
 p {
   font-size: 25px;
@@ -35,6 +39,22 @@ p:hover.link {
 
 }
 
+.update {
+    color: #d400ff;
+    font-size: 18px;
+    text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6, 0 0 40px #018fee, 0 0 50px #0191f1, 0 0 60px #0099ff, 0 0 70px #0099ff;
+    border-style: hidden;
+    width: 14%;
+
+}
+
+.update:hover {
+  color:#1eff00;
+    font-size: 18px;
+    text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01, 0 0 50px #09f101, 0 0 60px #26ff00, 0 0 70px #00ff04;
+    border-style: hidden;
+}
+
 
 a {
     color: #d400ff;
@@ -58,6 +78,7 @@ a:hover {
   text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01, 0 0 50px #09f101, 0 0 60px #26ff00, 0 0 70px #00ff04;
 
 }
+
 
 
 
@@ -99,7 +120,7 @@ a:hover {
     font-weight: bold;
     float: right;
     font-size: 22px;
-    line-height: 20px;
+    line-height: 15px;
     cursor: pointer;
     transition: 0.3s;
   }

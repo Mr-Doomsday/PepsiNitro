@@ -1,8 +1,9 @@
-var CACHE_NAME = 'version11'; // bump this version when you make changes.
+var CACHE_NAME = 'version12'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
     'chat.html',
+    'update.html',
     'assets/img/logo-192.png',
     'assets/img/logo-512.png',
     'assets/img/logo.png',
