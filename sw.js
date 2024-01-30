@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version14'; // bump this version when you make changes.
+var CACHE_NAME = 'version15'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
@@ -46,6 +46,10 @@ var urlsToCache = [
     'games/DogeMiner',
     'games/dragon-vs-bricks',
     'games/drive-mad',
+    'games/ducklife1',
+    'games/ducklife2',
+    'games/ducklife3',
+    'games/ducklife4',
     'games/edge-surf',
     'games/GBA',
     'games/game-inside',
@@ -92,6 +96,7 @@ var urlsToCache = [
     'games/scrapmetal',
     'games/sand-game',
     'games/rolly-vortex',
+    'games/retro-bowl',
     'games/portalflash',
     'games/pixel-gun-survival',
     'games/paperio2',
