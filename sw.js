@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version20'; // bump this version when you make changes.
+var CACHE_NAME = 'version21'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'index.html',
